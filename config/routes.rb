@@ -1,11 +1,10 @@
 Rails.application.routes.draw do
-  get 'posts/home'
-  get 'posts/about'
-  get 'posts/services'
-  get 'posts/portfolio'
-  get 'posts/team'
-  get 'posts/blog'
-  get 'posts/contact_us'
+  get 'about', to: 'posts#about'
+  get 'services', to: 'posts#services'
+  get 'portfolio', to: 'posts#portfolio'
+  get 'team', to: 'posts#team'
+  get 'blog', to: 'posts#blog'
+  get 'contact_us', to: 'posts#contact_us'
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Reveal health status on /up that returns 200 if the app boots with no exceptions, otherwise 500.

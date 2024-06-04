@@ -435,3 +435,64 @@ section{
   font-size: 13px;
   color: #fff;
 }
+/*-- about us start --*/
+.breadcrumbs{
+  padding: 15px 0;
+  background-color: #f3f8fa;
+  margin-top: 80px;
+}
+.breadcrumbs h2{
+  font-size: 28px;
+  font-weight: 300;
+}
+.breadcrumbs ol{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+.breadcrumbs ol li+li::before{
+  display: inline-block;
+  padding-right: 10px;
+  padding-left: 10px;
+  color: #6c757d;
+  content: "/";
+}
+.about .about-img{
+  width: 100%;
+  height: 100%;
+}
+.about h3{
+  font-size: 26px;
+  font-weight: 400;
+}
+.about ul {
+  list-style: none;
+  padding: 0;
+}
+.about ul li i{
+  font-size: 20px;
+  padding-right: 4px;
+  color: #68A4C4;
+}
+.about ul li{
+  padding-bottom: 10px;
+  font-size: 16px;
+  font-weight: 300;
+}
+.about .m-p{
+  font-size: 16px;
+  font-weight: 300;
+}
+.section-bg{
+  background-color: #f3f8fa;
+}
+.section-bg .precounter{
+  font-size: 48px;
+  display: block;
+  color: #68A4C4;
+}
+/*-- about us end--*/
