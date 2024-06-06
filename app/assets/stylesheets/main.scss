@@ -339,6 +339,13 @@ section{
   font-size: 24;
   font-weight: 400;
 }
+.features ul{
+  list-style: none;
+}
+.features ul li{
+  line-height: 30px;
+  font-weight: 300;
+}
 .features ul i{
   font-size: 20px;
   padding-right: 4px;
@@ -495,4 +502,226 @@ section{
   display: block;
   color: #68A4C4;
 }
+.client .client-img{
+  width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.m-progress-title{
+  text-align: center;
+  padding-bottom: 30px;
+}
+.m-progress-title h2{
+  font-size: 28px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+.m-progress-title h2::before{
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+.m-progress-title h2::after{
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #68A4C4;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+.progress-1 .progress{
+  height: 35px !important;
+  margin-bottom: 10px !important;
+}
+
+.progress .progress-bar{
+  text-align: left !important;
+}
+.html-t{
+  line-height: 35px;
+  padding: 0;
+  margin: 0 0 0 20px;
+  text-transform: uppercase;
+}
+.progress .progress-bar .percentage{
+  float: right;
+  margin-right: 20px;
+}
+.tetsimonials{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.tetsimonials-img{
+  width: 120px;
+  border-radius: 50%;
+  margin: 0 auto;
+  border: 4px solid #fff;
+}
+.tetsimonials h3{
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0 5px 0;
+  color: #111;
+}
+.tetsimonials h4{
+  font-size: 14px;
+  color: #999;
+  margin: 0 0 15px 0;
+}
+.tetsimonials p{
+  font-style: italic;
+  margin: 0 auto 60px auto;
+  font-size: 16px;
+  font-weight: 200;
+  color: #111;
+}
+.carousel-indicators {
+  background-color: #fff !important;
+}
+.carousel-indicators [data-bs-target] {
+  width: 12px !important;
+  height: 12px !important;
+  border: 1px solid #68A4C4 !important;
+  background-color: #68A4C4 !important;
+  border-radius: 50% !important;
+}
+
 /*-- about us end--*/
+/*-- Services start --*/
+.card4 .card{
+  border: 0px;
+  padding: 0px 30px;
+  margin-bottom: 60px;
+}
+.card4 .card .card-img{
+  width: calc(100% + 60px);
+  margin-left: -30px;
+  overflow: hidden;
+  z-index: 9;
+  border-radius: 0px;
+
+}
+.card4 .card .card-body{
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 15px;
+  padding: 30px;
+  border-top: 4px solid rgb(255, 255, 255);
+  margin-top: -60px;
+  z-index: 10;
+}
+.card4 .card .card-body .card-title{
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+  
+}
+.card4 .card .card-body:hover{
+  border-top: 4px solid #68A4C4;
+}
+.card4 .card .card-body:hover .card-title a{
+  color: #68A4C4;
+}
+.card4 .card .card-body .card-title a{
+  color: rgb(30, 67, 86);
+}
+.card4 .card .card-body .card-text {
+  color: rgb(94, 94, 94);
+  font-weight: 300;
+  font-size: 18px;
+}
+.card4 .card .card-body .card-title p{
+  text-align: left;
+}
+.read-more a{
+  color: rgb(94, 94, 94);
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 400;
+}
+.read-more a i{
+  padding-right: 5px;
+}
+.pricing-card{
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 15px;
+  text-align: center;
+  padding: 40px;
+  margin-bottom: 30px;
+}
+.pricing-card h3{
+  font-weight: 300;
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+.pricing-card h4{
+  font-size: 46px;
+  color: #68A4C4;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 25px;
+}
+.pricing-card h4 span{
+  color: #bababa;
+  font-size: 18px;
+  display: block;
+}
+.pricing-card ul{
+  list-style: none;
+  text-align: left;
+  color: #999;
+  margin-bottom: 1rem;
+  line-height: 20px;
+}
+.pricing-card ul li{
+  padding-bottom: 12px;
+}
+.pricing-card ul li i{
+  font-size: 20px;
+  padding-right: 4px;
+  color: #68A4C4;
+}
+.pricing-btn{
+  border-radius: 20px;
+  background-color: #1e4356;
+  display: inline-block;
+  padding: 6px 30px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+.pricing-btn-m{
+  border-radius: 20px;
+  background-color: #68A4C4;
+  display: inline-block;
+  padding: 6px 30px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 60px;
+}
+.m-feature{
+  margin: -30px -5px 0 -5px;
+  display: block;
+  position: relative;
+}
+.mr--26{
+  margin-right: -26px;
+}
+.ml--26{
+  margin-left: -26px;
+}
+/*-- Services end --*/
