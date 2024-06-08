@@ -184,17 +184,9 @@ h2 {
 section{
   padding: 60px 0;
 }
-.lorem-box{
+.card-content{
   height: 310px;
-}
-.sed-ut-box{
-  height: 310px;
-}
-.magni-box{
-  height: 310px;
-}
-.nemo-box{
-  height: 310px;
+  text-align: center;
 }
 .main .lorem-box:hover{
   border: 1px solid #ff689b;
@@ -242,7 +234,6 @@ section{
   display: inline-block;
   border-radius: 50%;
   font-size: 28px;
-  margin-left: 110px;
 } 
 .title{
   text-align: center;
@@ -785,3 +776,159 @@ section{
   color: #666;
 }
 /*-- team end --*/
+/*-- contact_us start --*/
+.contact-card{
+  background-color: #fff;
+  color: #444;
+  text-align: center;
+  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+  padding: 20px 0 30px 0;
+  margin-bottom: 30px;
+  width: 100%;
+}
+.contact .contact-card i {
+  font-size: 32px;
+  color: #68A4C4;
+  border-radius: 50%;
+  padding: 8px;
+  border: 2px dotted #a2cce3;
+}
+.contact .contact-card h3{
+  font-size: 20px;
+  color: #666;
+  font-weight: 700;
+  margin: 10px 0;
+}
+.contact .info-box p {
+  padding: 0;
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+.reg-card{
+  background-color: #fff;
+  color: #444;
+  text-align: center;
+  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+  padding:30px;
+  margin-bottom: 30px;
+  width: 100%;
+}
+/*-- contact_us end --*/
+
+/*-- Media Query-- */
+
+@media screen and (max-width: 1024px) and (min-width: 769px){
+  .card-content {
+    height: 375px;
+  }
+  .mt-150{
+    margin-top: 50px;
+  }
+  .title1 {
+
+    margin-left: 20px;
+  }
+  .description1 {
+    margin-left: 20px;
+  }
+  
+}
+
+@media screen and (max-width: 768px) and (min-width: 426px){
+  
+  .mt-150{
+    margin-top: 50px;
+  }
+
+  /*--Services start--*/
+  .card-img{
+    height: 30vh;
+    vertical-align: middle;
+  }
+  .icon-box{
+    margin-left: 40px;
+  }
+  .title1{
+    margin-left: 20px;
+  }
+  .description1 {
+    margin-left: 20px;
+    padding-bottom: 20px;
+  }
+  .m-feature {
+    margin: 0 0 0 0;
+  }
+  .center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+  }
+  .pricing-card{
+    width: 60%;
+    margin: 0 auto 30px auto;
+  }
+  .card-content {
+    margin-bottom: 30px;
+  }
+  .mr--26{
+    margin-right: 0;
+  }
+  .ml--26{
+    margin-left: 0;
+  }
+  /*--Services end--*/
+  
+}
+
+@media screen and (max-width: 425px) and (min-width: 375px){
+  
+  #hero h2{
+    font-size: 26px;
+  }
+  /*--Home start--*/
+  .search-field{
+    width: 100%;
+  }
+  /*--HOme start--*/
+
+  /*--Services start--*/
+  .card-content {
+    margin-bottom: 30px;
+  }
+  .mr--26{
+    margin-right: 0;
+  }
+  .ml--26{
+    margin-left: 0;
+  }
+  .m-feature {
+    margin: 0 0 30px 0;   
+  }
+  .title1{
+    margin-left: 20px;
+  }
+  .description1 {
+    margin-left: 20px;
+  }
+  .mt-150{
+    margin-top: 50px;
+  }
+
+  /*--Services end--*/
+}
+
+@media screen and (max-width: 375px) and (min-width: 1px){
+  /*--Services start--*/
+  .title1{
+    margin-left: 40px;
+  }
+  .description1 {
+    margin-left: 40px;
+  }
+  /*--Services end--*/
+
+
+}
+/*-- Media Query end-- */
