@@ -7,13 +7,12 @@
     </div>
     <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="active " href="/">Home</a></li>
-          <li><a href="/about">About</a></li>
-          <li><a href="/services">Services</a></li>
-          <li><a href="/portfolio">Portfolio</a></li>
-          <li><a href="/team">Team</a></li>
-          <li><a href="/blog">Blog</a></li>
-          <li><a href="/contact_us">Contact Us</a></li>
+          <li><a  href="/"><span class="active <%= 'nav-text' if request.original_fullpath == '/'%>">Home</span></a></li>
+          <li><a  href="/about"><span class="active <%= 'nav-text' if request.original_fullpath == '/about'%>">About</a></li>
+          <li><a  href="/services"><span class="<%= 'nav-text' if request.original_fullpath == '/services'%>">Services</span></a></li>
+          <li><a  href="/portfolio"><span class="<%= 'nav-text' if request.original_fullpath == '/portfolio'%>">Portfolio</span></a></li>
+          <li><a  href="/team"><span class="<%= 'nav-text' if request.original_fullpath == '/team'%>">Team</span></a></li>
+          <li><a  href="/contact_us"><span class="<%= 'nav-text' if request.original_fullpath == '/contact_us'%>">Contact Us</span></a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav>

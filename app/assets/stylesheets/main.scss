@@ -169,6 +169,9 @@ h2 {
   animation-delay: 0.8s;
   border: 2px solid #68A4C4;
 }
+.nav-text{
+  color: #4fa6d5;
+}
 .main{
   margin-top: 80px;
 }
@@ -813,6 +816,12 @@ section{
   padding:30px;
   margin-bottom: 30px;
   width: 100%;
+}
+.reg-card button{
+  background: #68A4C4;
+  border: 0 !important;
+  padding: 10px 24px;
+  color: #fff;
 }
 /*-- contact_us end --*/
 
